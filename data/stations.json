@@ -1,0 +1,3983 @@
+{
+	"type" : "FeatureCollection",
+	"name" : "rayli_sistem_istasyon_poi_verisi",
+	"features" : [
+
+	{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9504763048, 41.005588975 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yenikapı",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9480900733, 41.0120083811 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Aksaray",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9396003277, 41.0176097243 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Emniyet - Fatih",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9305073648, 41.0240232433 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Topkapı - Ulubatlı",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9202426412, 41.034096046 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bayrampaşa",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9072392503, 41.040852645 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Sağmalcılar",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8955204746, 41.0484570927 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kocatepe",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8945640632, 41.0401423681 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Otogar",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8979561956, 41.0303299066 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Terazidere",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.900212216, 41.0206505824 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Davutpaşa - YTÜ",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.896181044, 41.0076440847 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Merter",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8896559931, 41.0016990483 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Zeytinburnu",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8754036789, 40.9966103583 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bakırköy",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8630701218, 40.9953514712 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bahçelievler",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8460862329, 40.9913483432 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Ataköy - Şirinevler",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8367082249, 40.9893132336 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yenibosna",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8285542483, 40.9866437703 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Dünya  Ticaret Merkezi",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.821128321, 40.9795412044 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Havaalanı",
+				"PROJE_ADI" : "M1A Yenikapı - Atatürk Havalimanı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9504763048, 41.005588975 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yenikapı",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9480900733, 41.0120083811 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Aksaray",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9396003277, 41.0176097243 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Emniyet - Fatih",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9305073648, 41.0240232433 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Topkapı - Ulubatlı",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9202426412, 41.034096046 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bayrampaşa",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9072392503, 41.040852645 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Sağmalcılar",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8955204746, 41.0484570927 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kocatepe",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8945640632, 41.0401423681 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Otogar",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8884510108, 41.0370483035 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Esenler",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8784918018, 41.0427573125 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Menderes",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8706380252, 41.0367198157 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Üçyüzlü",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8561754626, 41.034514697 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bağcılar Meydan",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8427537611, 41.0331712495 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kirazlı",
+				"PROJE_ADI" : "M1B Yenikapı - Kirazlı Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0304364747, 41.1397726671 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Hacıosman",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0251285208, 41.1295804129 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Darüşşafaka",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0241937825, 41.118255545 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Atatürk Oto Sanayi",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0207987305, 41.1080929067 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İTÜ Ayazağa",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9960969818, 41.1011134287 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Seyrantepe",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0055310949, 41.0943010952 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Sanayi Mah.",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0070937585, 41.0860061902 ]
+			},
+			"properties" : {
+				"ISTASYON" : "4. Levent",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0136915989, 41.0767715513 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Levent",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0109240486, 41.0689993628 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Gayrettepe",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9926737246, 41.0645050502 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Şişli",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9874152263, 41.0524927818 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Osmanbey",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9856591013, 41.0381565458 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Taksim",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9728491187, 41.0282905337 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Şişhane - Zemin İstanbul",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9664222621, 41.022434782 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Haliç",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9598347809, 41.0122648278 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Vezneciler - İstanbul Ünv.",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},		
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9514201471, 41.0055856644 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yenikapı",
+				"PROJE_ADI" : "M2 Yenikapı - Seyrantepe - Hacıosman Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7665088663, 41.1195507427 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kayaşehir Merkez",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7678710416, 41.1073954459 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Toplu Konutlar",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7778792943, 41.103310128 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Şehir Hastanesi",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7904528718, 41.1133556519 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Onurkent",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8014808953, 41.1075881712 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Başakşehir - Metrokent",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7912865195, 41.097668849 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Başak Konutları",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7965144472, 41.0882009753 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Siteler",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.797408964, 41.0811835113 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Turgut Özal",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8023325524, 41.0724316434 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İkitelli Sanayi",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8259631805, 41.0649978935 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İstoç",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8305389157, 41.0548941972 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Mahmutbey",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8359418382, 41.0403554341 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yeni Mahalle",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8424316868, 41.0327712121 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kirazlı",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8478882573, 41.0260454587 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Molla Gürani",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "AYGM"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8656490726, 41.0116111624 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İlkyuva",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "AYGM"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8717193568, 41.0046548513 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Haznedar",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "AYGM"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.874947155, 40.997791003 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İncirli",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "AYGM"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8740634973, 40.9817353367 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Özgürlük Meydanı",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "AYGM"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8680772574, 40.9736222874 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bakırköy İDO",
+				"PROJE_ADI" : "M3 Kirazlı - Kayaşehir Merkez Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "AYGM"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.3114239088, 40.9065447646 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Sabiha Gökçen",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "AYGM"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2962830984, 40.9101335948 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kurtköy",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "AYGM"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2751192864, 40.9037407838 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yayalar - Şeyhli",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "AYGM"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2624037531, 40.8886417085 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Fevzi Çakmak - Hastane",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "AYGM"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2488374197, 40.882088389 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Tavşantepe",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2385281454, 40.8887242519 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Pendik",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2271981056, 40.8967288368 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yakacık - Adnan Kahveci",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2113837621, 40.9066447114 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kartal",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1923983239, 40.9132883838 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Soğanlık",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.178771727, 40.9161698138 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Hastane - Adliye",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1663490467, 40.9208832243 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Esenkent",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1546230461, 40.9238194899 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Gülsuyu",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.147007915, 40.9299434238 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Huzurevi",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1395599592, 40.9358193379 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Maltepe",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.121853858, 40.9490497377 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Küçükyalı",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1053503103, 40.9645784145 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bostancı",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0996930943, 40.9752225 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kozyatağı",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0903877924, 40.9847287608 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yenisahra",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0707261384, 40.9940461002 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Göztepe",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0598854733, 40.9981735143 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Ünalan",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0445867059, 41.0022997833 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Acıbadem",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0303161782, 41.0000996226 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Ayrılık Çeşmesi",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0219549908, 40.9904063985 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kadıköy",
+				"PROJE_ADI" : "M4 Kadıköy - SGH Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2314617555, 40.983759202 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Samandıra Merkez",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2292423995, 40.9914198992 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Sancaktepe",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2120882819, 41.010138601 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Sarıgazi",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1988611401, 41.0096652612 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Meclis",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.189207926, 41.0145632479 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Çekmeköy",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1792056992, 41.0160785116 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Necip Fazıl",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1623536613, 41.0152668658 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Dudullu",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1515186058, 41.0159627424 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İmam Hatip",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1405619719, 41.0165423463 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Altınşehir",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1304702884, 41.0197169944 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Ihlamurkuyu",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1183812217, 41.0215409985 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Çakmak",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.108777832, 41.0241552372 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yamanevler",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0973186221, 41.0259432808 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Çarşı",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0847807184, 41.0246243207 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Ümraniye",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.076243829, 41.0163439849 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bulgurlu",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0620828309, 41.0221826659 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kısıklı",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},		
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0482914336, 41.021954492 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Altunizade",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0364140056, 41.0219145673 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bağlarbaşı",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.028844655, 41.0282537069 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Fıstık Ağacı",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0128155731, 41.0252969925 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Üsküdar",
+				"PROJE_ADI" : "M5 Üsküdar - Çekmeköy Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0455710525, 41.0853512482 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Rumeli Hisarüstü",
+				"PROJE_ADI" : "M6 Levent - Boğaziçi Ünv./Hisarüstü Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0375407815, 41.0823435461 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Etiler",
+				"PROJE_ADI" : "M6 Levent - Boğaziçi Ünv./Hisarüstü Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0242490175, 41.0773106797 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Nispetiye",
+				"PROJE_ADI" : "M6 Levent - Boğaziçi Ünv./Hisarüstü Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0145271463, 41.0755084748 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Levent",
+				"PROJE_ADI" : "M6 Levent - Boğaziçi Ünv./Hisarüstü Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8315007416, 41.0549034307 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Mahmutbey",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.848131392, 41.0568370074 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Göztepe Mah.",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8553800128, 41.0628471179 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Oruc Reis",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8669783971, 41.0714904542 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Tekstilkent - Giyimkent",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8750662124, 41.0811903035 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Karadeniz Mah.",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8926872572, 41.0838545405 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yenimahalle",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9083979482, 41.0853738983 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kazım Karabekir",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9183127582, 41.0823042034 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yeşilpınar",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9281017456, 41.0796856699 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Veysel Karani  - Akşemsettin",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9362253204, 41.0802283123 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Çırçır",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Ulaşım Planlama Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9496326544, 41.0791146521 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Alibeyköy",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9635421453, 41.0797649097 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Nurtepe",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9733006431, 41.0795639497 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kağıthane",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9804834482, 41.0706569134 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Çağlayan",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9953910663, 41.0652301997 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Mecidiyeköy",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0074130115, 41.0619944468 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Fulya",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0096778157, 41.054110438 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yıldız",
+				"PROJE_ADI" : "M7 Yıldız - Mahmutbey Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1526674022, 41.0312433529 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Parseller",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1595514004, 41.0226344203 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Huzur",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1632870725, 41.0152325915 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Dudullu",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.161855314, 41.0071876376 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Modoko - Keyap",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1562117564, 41.0001481272 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İmes",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1533571204, 40.992156465 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Mevlana",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1377306108, 40.9846900159 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kayışdağı",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.126424906, 40.9789845394 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İçerenköy",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1117414468, 40.9789184865 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Küçükbakkalköy",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0999002371, 40.9775015583 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kozyatağı",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0867181509, 40.9667774717 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Ayşe Kadın",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0937084923, 40.9605472642 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Emin Ali Paşa",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0977225047, 40.9509636456 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bostancı",
+				"PROJE_ADI" : "M8 Bostancı - Dudullu Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8562110538, 40.979913638 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Ataköy",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8380437874, 40.9892636065 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yenibosna",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8226568462, 40.9992732598 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Çobançeşme - Kuyumcukent",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8179826163, 41.0150158062 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Doğu Sanayi",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8165137276, 41.0251024172 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Mimar Sinan",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8141344326, 41.036903864 ]
+			},
+			"properties" : {
+				"ISTASYON" : "15 Temmuz",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.80672735, 41.0449675987 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Halkalı Caddesi",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7987700317, 41.0521039707 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Atatürk Mahallesi",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7993743238, 41.058395086 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bahariye",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8039976708, 41.0640636378 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Masko",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.802129563, 41.0723497502 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İkitelli Sanayi",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7865302451, 41.0744821902 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Ziya Gökalp Mahallesi",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7672340276, 41.0794660403 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Olimpiyat",
+				"PROJE_ADI" : "M9 Ataköy - Olimpiyat Metro Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Metro",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9925196278, 41.0342600076 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kabataş",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9894418022, 41.0314532963 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Fındıklı",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9808666, 41.0269906403 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Tophane",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Raylı Sistem Projeler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9746879491, 41.0221147392 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Karaköy",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9732136953, 41.0174751806 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Eminönü",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9758940742, 41.0151787938 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Sirkeci",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9784244836, 41.0121629659 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Gülhane",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.975587398, 41.008087187 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Sultanahmet",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9711299487, 41.0084351413 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Çemberlitaş",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9666983534, 41.0090671307 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Beyazıt",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9597904528, 41.0095852413 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Üniversite-Laleli",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9538638023, 41.0095921116 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Aksaray",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.94712091, 41.0099969873 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yusufpaşa",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9442967061, 41.0107080395 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Haseki",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9391494468, 41.0123552716 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Fındıkzade",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9320311155, 41.0158815142 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Çapa",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9271565618, 41.0182643876 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Pazartekke",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9194509655, 41.0192277354 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Topkapı",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9115778282, 41.0159539922 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Cevizlibağ",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9095053582, 41.0103904554 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Merkezefendi",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9093460025, 41.0078444838 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Seyitnizam",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8902959262, 41.00148356 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Zeytinburnu",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.881680707, 41.0058001386 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Mehmet Akif",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8807589097, 41.0115575409 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Merter Tekstil Merkezi",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8775129878, 41.0152086456 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Güngören",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8710345188, 41.0173348574 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Akıncılar",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8670836783, 41.0209671886 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Soğanlı",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8636557132, 41.0238202101 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yavuz Selim Camii",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8609536978, 41.0289932752 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Güneştepe",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8606511837, 41.0330845374 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bağcılar",
+				"PROJE_ADI" : "T1 Kabataş - Bağcılar Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0207706082, 40.9899103415 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İDO",
+				"PROJE_ADI" : "T3 Kadıköy - Moda Nostaljik Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.020752372, 40.9884331596 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Damga Sk.",
+				"PROJE_ADI" : "T3 Kadıköy - Moda Nostaljik Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0213268333, 40.985181343 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Mühürdar",
+				"PROJE_ADI" : "T3 Kadıköy - Moda Nostaljik Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0244084241, 40.984062436 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Moda",
+				"PROJE_ADI" : "T3 Kadıköy - Moda Nostaljik Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0267349436, 40.9840909558 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Moda İlkokulu",
+				"PROJE_ADI" : "T3 Kadıköy - Moda Nostaljik Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0275960507, 40.9848860823 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kilise",
+				"PROJE_ADI" : "T3 Kadıköy - Moda Nostaljik Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0285260083, 40.9878694508 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bahariye",
+				"PROJE_ADI" : "T3 Kadıköy - Moda Nostaljik Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0289380334, 40.9897914366 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Altıyol",
+				"PROJE_ADI" : "T3 Kadıköy - Moda Nostaljik Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.025473107, 40.9910897361 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Çarşı",
+				"PROJE_ADI" : "T3 Kadıköy - Moda Nostaljik Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0234841795, 40.9908757898 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İskele",
+				"PROJE_ADI" : "T3 Kadıköy - Moda Nostaljik Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Anadolu Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9194509655, 41.0192277354 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Topkapı",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9253384078, 41.0218231939 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Fetihkapı",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9293599063, 41.0256928527 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Vatan",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9339749517, 41.0314391067 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Edirnekapı",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9282569721, 41.0341805312 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Şehitlik",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9233777611, 41.0370058895 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Demirkapı",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9195379435, 41.0416185494 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Topçular",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.915524597, 41.0466419975 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Rami",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9102501142, 41.0541363716 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Uluyol-Bereç",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.906939745, 41.0572800041 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Sağmalcılar-Pancar Motor",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9020835612, 41.0618358936 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bosna Çukurçeşme",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8954815845, 41.0685637951 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Ali Fuat Başgil",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8876515183, 41.0726561721 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Taşköprü",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8822397351, 41.0752974339 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Karadeniz",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8756232689, 41.0802277875 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Metris",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8719867341, 41.0841529031 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Cumhuriyet Mah.",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8667654908, 41.0879075061 ]
+			},
+			"properties" : {
+				"ISTASYON" : "50.Yıl",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.864009196, 41.0928320034 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Hacı Şükrü",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.86297747, 41.0998271111 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yenimahalle",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8606058814, 41.1061810067 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Sultançifliği",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8578112, 41.111919952 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Cebeci",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8512631642, 41.11621368 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Mescid-i Selam",
+				"PROJE_ADI" : "T4 Topkapı - Mescid-i Selam Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9439170961, 41.0868880935 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Alibeyköy Cep Otogarı",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9494471692, 41.0784579664 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Alibeyköy Metro",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9460604337, 41.0737690827 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Alibeyköy Merkez",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9428477215, 41.0698014663 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Üniversite",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9428944835, 41.0647767596 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Silahtarağa Mahallesi",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9411189488, 41.056729923 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Eyüpsultan Devlet Hastanesi",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9351655775, 41.0504706073 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Eyüpsultan Teleferik",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9379603124, 41.0455174821 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Feshane",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9439490435, 41.03956207 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Ayvansaray",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9480367019, 41.0340557692 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Balat",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9544622861, 41.0286247834 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Fener",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9603097439, 41.0242383795 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Cibali",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9633072364, 41.0209082584 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Küçükpazar",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9700504844, 41.0182506722 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Eminönü",
+				"PROJE_ADI" : "T5 Eminönü - Alibeyköy Cep Otogarı Tramvay Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Tramvay",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9920304059, 41.0339800289 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kabataş",
+				"PROJE_ADI" : "F1 Taksim - Kabataş Füniküler Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Füniküler",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.986995331, 41.0366106262 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Taksim",
+				"PROJE_ADI" : "F1 Taksim - Kabataş Füniküler Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Füniküler",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9740377459, 41.0227730939 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Karaköy",
+				"PROJE_ADI" : "F2 Karaköy - Beyoğlu Tünel Füniküler Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Füniküler",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9740491197, 41.0284213663 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Tünel",
+				"PROJE_ADI" : "F2 Karaköy - Beyoğlu Tünel Füniküler Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Füniküler",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0461832253, 41.0849124744 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Rumeli Hisarüstü",
+				"PROJE_ADI" : "F4 Rumeli Hisarüstü - Aşiyan Füniküler Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Füniküler",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0536539042, 41.0813857171 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Aşiyan",
+				"PROJE_ADI" : "F4 Rumeli Hisarüstü - Aşiyan Füniküler Hattı",
+				"PROJE_ASAMA" : "İnşaat Aşamasında",
+				"HAT_TURU" : "Füniküler",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9939499162, 41.044737154 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Maçka",
+				"PROJE_ADI" : "TF1 Maçka - Taşkışla Teleferik Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Teleferik",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9905733691, 41.0436318448 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Taşkışla",
+				"PROJE_ADI" : "TF1 Maçka - Taşkışla Teleferik Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Teleferik",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.932979553, 41.0540348217 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Pier Loti",
+				"PROJE_ADI" : "TF2 Eyüp - Pier Loti Teleferik Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Teleferik",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9340681863, 41.0500152491 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Eyüp",
+				"PROJE_ADI" : "TF2 Eyüp - Pier Loti Teleferik Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Teleferik",
+				"MUDURLUK" : "Avrupa Yakası Raylı Sistemler Müdürlüğü"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.409965741, 40.7840644551 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Gebze",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.3919754761, 40.7913449435 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Darıca",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.3800379757, 40.799227689 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Osmangazi",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.3638554302, 40.8075100987 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Fatih",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.3474462443, 40.8103767335 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Çayırova",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.3223601331, 40.829952436 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Tuzla",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.3000611747, 40.8456508905 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İçmeler",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2931664015, 40.8522885877 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Aydıntepe",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2834955975, 40.8568547122 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Güzelyalı",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2733636214, 40.8609774864 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Tersane",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2560336339, 40.8713029434 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kaynarca",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2316720558, 40.8802067715 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Pendik",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.2105353314, 40.8845046267 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yunus",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.191190141, 40.8886128832 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kartal",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1773527137, 40.8905590783 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Başak",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1694542075, 40.8985880196 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Atalar",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1560454699, 40.9100151225 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Cevizli",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1335259971, 40.9206463836 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Maltepe",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1242047148, 40.9268299859 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Süreyya Plajı",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.114255858, 40.9378068715 ]
+			},
+			"properties" : {
+				"ISTASYON" : "İdealtepe",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.1068216034, 40.9462573976 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Küçükyalı",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},		
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0950591486, 40.9538001485 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bostancı",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0844186912, 40.9604752408 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Suadiye",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0764726676, 40.9714092752 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Erenköy",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0625591735, 40.9791648388 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Göztepe",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0490084627, 40.978696151 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Feneryolu",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0376279459, 40.9909023378 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Söğütlüçeşme",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0301236137, 41.0000768042 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Ayrılık Çeşmesi",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 29.0135223765, 41.0256996122 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Üsküdar",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9771245143, 41.0135844923 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Sirkeci",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.950826891, 41.0050201028 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yenikapı",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.9168778133, 40.9926862409 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Kazlıçeşme",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8810549364, 40.9817327416 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yenimahalle",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8723322859, 40.980241915 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Bakırköy",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8562244497, 40.9802159969 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Ataköy",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8372751097, 40.9654691979 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yeşilyurt",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.8248930566, 40.962652581 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Yeşilköy",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7970279467, 40.9677662609 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Florya Akvaryum",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7874733117, 40.9729608799 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Florya",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7729423261, 40.9885240376 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Küçükçekmece",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7739273174, 41.0062619961 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Mustafa Kemal",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		},
+		{
+			"type" : "Feature",
+			"geometry" : {
+				"type" : "Point",
+				"coordinates" : [ 28.7663997635, 41.0178236153 ]
+			},
+			"properties" : {
+				"ISTASYON" : "Halkalı",
+				"PROJE_ADI" : "Halkalı - Gebze Marmaray Yüzeysel Raylı Sistem Hattı",
+				"PROJE_ASAMA" : "Mevcut Hattaki İstasyon",
+				"HAT_TURU" : "Banliyö",
+				"MUDURLUK" : "Ulaştırma Bakanlığı"
+			}
+		}
+	]
+}

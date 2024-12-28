@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Istanbul Metro Map</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+
+        #map {
+            height: 100vh;
+            width: 100%;
+        }
+
+        .station-popup {
+            font-family: Arial, sans-serif;
+        }
+
+        .station-popup .station-name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .station-popup .line-name {
+            color: #666;
+            font-size: 12px;
+        }
+
+        .legend {
+            background: white;
+            padding: 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            max-height: 70vh;
+            overflow-y: scroll;
+            min-width: 280px;
+            font-family: Arial, sans-serif;
+            scrollbar-width: thin;
+            scrollbar-color: #888 #f1f1f1;
+        }
+
+        .legend::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .legend::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 3px;
+        }
+
+        .legend::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 3px;
+        }
+
+        .legend::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        .legend h4 {
+            margin-bottom: 12px;
+            font-size: 14px;
+            font-weight: bold;
+            color: #333;
+            padding-bottom: 8px;
+            border-bottom: 1px solid #eee;
+            position: sticky;
+            top: 0;
+            background: white;
+            z-index: 1000;
+        }
+
+        .legend-item {
+            display: grid;
+            grid-template-columns: 24px auto;
+            align-items: center;
+            gap: 10px;
+            padding: 4px 0;
+        }
+
+        .legend-color {
+            width: 24px;
+            height: 4px;
+            border-radius: 2px;
+        }
+
+        .line-name {
+            font-size: 12px;
+            color: #666;
+            margin-top: 2px;
+        }
+
+        .line-type-header {
+            margin-top: 12px;
+            margin-bottom: 6px;
+            color: #333;
+            font-size: 13px;
+            font-weight: 600;
+            padding-top: 8px;
+            border-top: 1px solid #eee;
+            position: sticky;
+            top: 39px;
+            background: white;
+            z-index: 999;
+        }
+
+        .line-type-header:first-of-type {
+            border-top: none;
+            margin-top: 0;
+        }
+
+        .legend-text {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .line-code {
+            font-weight: 600;
+            color: #333;
+            font-size: 12px;
+        }
+
+        .leaflet-popup-content-wrapper {
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .leaflet-popup-tip-container {
+            opacity: 0.8;
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script>
+        const lines = {
+            'M1A': {
+                color: '#ED1C24',
+                name: 'Yenikapi - Istanbul Ataturk Airport Metro Line'
+            },
+            'M1B': {
+                color: '#ED1C24',
+                name: 'Yenikapi - Kirazli Metro Line'
+            },
+            'M2': {
+                color: '#00A651',
+                name: 'Yenikapi - Haciosman Metro Line'
+            },
+            'M3': {
+                color: '#00AEEF',
+                name: 'Bakirkoy IDE - Kayasehir Metro Line'
+            },
+            'M4': {
+                color: '#EC008C',
+                name: 'Kadikoy - Sabiha Gokcen Airport Metro Line'
+            },
+            'M5': {
+                color: '#92278F',
+                name: 'Uskudar - Cekmekoy Metro Line'
+            },
+            'M6': {
+                color: '#B77F51',
+                name: 'Levent - Bogazici University / Hisarustu Metro Line'
+            },
+            'M7': {
+                color: '#F8ADC2',
+                name: 'Mecidiyekoy - Mahmutbey Metro Line'
+            },
+            'M8': {
+                color: '#0072BC',
+                name: 'Bostanci - Dudullu Metro Line'
+            },
+            'M9': {
+                color: '#FFD100',
+                name: 'Basakehir - Kayasehir Metro Line'
+            },
+            'T1': {
+                color: '#00205B',
+                name: 'Kabatas - Bagcilar Tram Line'
+            },
+            'T2': {
+                color: '#95A5A6',
+                name: 'Taksim - Tunel Heritage Tram Line'
+            },
+            'T3': {
+                color: '#8B4513',
+                name: 'Kadikoy - Moda Heritage Tram Line'
+            },
+            'T4': {
+                color: '#FF6B33',
+                name: 'Topkapi - Mescid-i Selam Tram Line'
+            },
+            'F1': {
+                color: '#7F6000',
+                name: 'Taksim - Kabatas Funicular Line'
+            },
+            'F2': {
+                color: '#7F6000',
+                name: 'Karakoy - Beyoglu Historical Tunnel'
+            },
+            'B1': {
+                color: '#4A4A4A',
+                name: 'Halkali - Gebze Marmaray Line'
+            }
+        };
+
+        const map = L.map('map').setView([41.0082, 28.9784], 11);
+
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
+            attribution: '©OpenStreetMap, ©CartoDB',
+            subdomains: 'abcd',
+            minZoom: 0,
+            maxZoom: 20,
+        }).addTo(map);
+
+        function interpolatePoints(points, numPoints = 5) {
+            const interpolated = [];
+            for (let i = 0; i < points.length - 1; i++) {
+                const p0 = points[i];
+                const p1 = points[i + 1];
+                
+                for (let j = 0; j < numPoints; j++) {
+                    const t = j / numPoints;
+                    interpolated.push([
+                        p0[0] + (p1[0] - p0[0]) * t,
+                        p0[1] + (p1[1] - p0[1]) * t
+                    ]);
+                }
+            }
+            interpolated.push(points[points.length - 1]);
+            return interpolated;
+        }
+
+        async function loadStations() {
+            try {
+                const response = await fetch('/data/stations.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                processStations(data);
+            } catch (error) {
+                console.error('Error loading stations:', error);
+            }
+        }
+
+        function getLineNameInEnglish(lineName) {
+            const lineCode = lineName.split(' ')[0];
+            return lines[lineCode]?.name || lineName;
+        }
+
+        function processStations(data) {
+            const stationsByLine = {};
+            const stations = data.features;
+            
+            stations.forEach(station => {
+                const line = station.properties.PROJE_ADI;
+                if (!stationsByLine[line]) {
+                    stationsByLine[line] = [];
+                }
+                stationsByLine[line].push(station);
+            });
+
+            Object.entries(stationsByLine).forEach(([line, stations]) => {
+                const lineCode = line.split(' ')[0];
+                const color = lines[lineCode]?.color || '#999';
+                const englishLineName = getLineNameInEnglish(line);
+
+                stations.sort((a, b) => {
+                    return (a.properties.SIRA_NO || 0) - (b.properties.SIRA_NO || 0);
+                });
+
+                const coordinates = stations.map(station => 
+                    [station.geometry.coordinates[1], station.geometry.coordinates[0]]
+                );
+
+                // Create smooth line with interpolated points
+                const smoothCoordinates = interpolatePoints(coordinates, 8);
+
+                L.polyline(smoothCoordinates, {
+                    color: color,
+                    weight: 6,
+                    opacity: 0.9,
+                    lineJoin: 'round',
+                    lineCap: 'round',
+                    smoothFactor: 0.3
+                }).addTo(map);
+
+                stations.forEach(station => {
+                    const [lng, lat] = station.geometry.coordinates;
+                    const circle = L.circleMarker([lat, lng], {
+                        radius: 6,
+                        fillColor: color,
+                        color: '#fff',
+                        weight: 2,
+                        opacity: 1,
+                        fillOpacity: 1
+                    }).addTo(map);
+
+                    circle.bindPopup(`
+                        <div class="station-popup">
+                            <div class="station-name">${station.properties.ISTASYON} Station</div>
+                            <div class="line-name">${englishLineName}</div>
+                        </div>
+                    `);
+                });
+            });
+
+            addLegend();
+        }
+
+        function addLegend() {
+            const legend = L.control({ position: 'bottomright' });
+
+            legend.onAdd = function(map) {
+                const div = L.DomUtil.create('div', 'legend');
+                div.innerHTML = '<h4>Istanbul Railway Network</h4>';
+
+                const lineTypes = {
+                    'M': 'Metro Lines',
+                    'T': 'Tram Lines',
+                    'F': 'Funicular & Historical Lines',
+                    'B': 'Suburban Lines'
+                };
+
+                const groupedLines = Object.entries(lines).reduce((acc, [code, data]) => {
+                    const type = code[0];
+                    if (!acc[type]) acc[type] = [];
+                    acc[type].push([code, data]);
+                    return acc;
+                }, {});
+
+                Object.entries(lineTypes).forEach(([type, typeName]) => {
+                    if (groupedLines[type]) {
+                        div.innerHTML += `<div class="line-type-header">${typeName}</div>`;
+                        div.innerHTML += '<div class="legend-grid">';
+                        groupedLines[type].forEach(([code, data]) => {
+                            div.innerHTML += `
+                                <div class="legend-item">
+                                    <div class="legend-color" style="background: ${data.color}"></div>
+                                    <div class="legend-text">
+                                        <span class="line-code">${code}</span>
+                                        <span class="line-name">${data.name}</span>
+                                    </div>
+                                </div>
+                            `;
+                        });
+                        div.innerHTML += '</div>';
+                    }
+                });
+
+                return div;
+            };
+
+            legend.addTo(map);
+        }
+
+        loadStations();
+    </script>
+</body>
+</html>
