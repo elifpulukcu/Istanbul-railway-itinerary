@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Istanbul Metro Map</title>
+    <title>Metro Map</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css" />
     <style>
         * {
@@ -12,9 +10,8 @@
             box-sizing: border-box;
         }
 
-        html, body {
-            height: 100%;
-            width: 100%;
+        body {
+            font-family: Arial, sans-serif;
         }
 
         #map {
@@ -22,353 +19,614 @@
             width: 100%;
         }
 
+        .search-container {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: 1000;
+            background: white;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.15);
+            width: 350px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px 15px;
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s ease;
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: #2196F3;
+            box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.1);
+        }
+
+        .search-results {
+            background: white;
+            border: 1px solid #eee;
+            max-height: 200px;
+            overflow-y: auto;
+            margin-bottom: 12px;
+            display: none;
+            border-radius: 8px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 100%;
+            margin-bottom: 5px;
+            box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+        }
+
+        .search-results.active {
+            display: block;
+        }
+
+        .station-option {
+            padding: 10px 15px;
+            cursor: pointer;
+            border-bottom: 1px solid #eee;
+        }
+
+        .station-option:hover {
+            background: #f5f5f5;
+        }
+
+        .find-route-btn {
+            width: 100%;
+            padding: 12px;
+            background: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: 500;
+            font-size: 15px;
+            transition: background 0.3s ease;
+        }
+
+        .find-route-btn:hover:not(:disabled) {
+            background: #1976D2;
+        }
+
+        .find-route-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+
+        .route-details {
+            position: relative;
+            background-color: white;
+            border-radius: 12px; 
+            box-shadow: none; 
+            max-height: 300px; 
+            overflow-y: auto;
+            margin: 0; 
+            border-top: 1px solid #ddd; 
+            padding: 0; 
+        }
+
+        .route-details h4 {
+            position: sticky;
+            top: 0;
+            background-color: white;
+            z-index: 10;
+            padding: 15px; 
+            margin: 0;
+            font-size: 18px; 
+            font-weight: bold;
+            color: #333; 
+            border-bottom: 1px solid #ddd; 
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05); 
+        }
+
+        .route-content {
+            padding: 15px;
+            font-size: 14px;
+            line-height: 1.6; 
+            color: #555; 
+        }
+
+        .transfer-point {
+            background-color: #f5f9ff; 
+            padding: 10px 15px;
+            margin: 10px 0;
+            border-radius: 8px; 
+            border-left: 4px solid #2196F3; 
+            font-size: 14px;
+            color: #333; 
+        }
+
+        .route-summary {
+            padding: 15px;
+            background-color: #f9f9f9; 
+            font-weight: bold;
+            font-size: 14px;
+            color: #333;
+            border-top: 1px solid #ddd; 
+            margin: 0;
+        }
+
+        .legend {
+            position: relative;
+            z-index: 1000; 
+            background-color: white; 
+            padding: 0;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); 
+            max-height: 80vh; 
+            overflow-y: auto; 
+            min-width: 300px; 
+            transition: max-height 0.3s ease; 
+        }
+
+        .legend-header {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            background-color: white;
+            padding: 15px 10px;
+            font-weight: bold;
+            font-size: 18px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: none; 
+        }
+
+        .legend-header h4 {
+            margin: 0;
+            flex: 1; 
+            text-align: center; 
+        }
+
+        .legend-toggle {
+            font-size: 14px; 
+            cursor: pointer;
+            margin-left: 8px;
+            transform: rotate(0deg);
+            transition: transform 0.3s ease;
+        }
+
+        .legend.collapsed .legend-toggle {
+            transform: rotate(-90deg); 
+        }
+
+        .legend-content {
+            padding: 10px; 
+            border-top: none; 
+            pointer-events: auto; 
+        }
+
+        .legend.collapsed .legend-content {
+            display: none; 
+        }
+
+        .line-type-header {
+            margin-top: 15px;
+            margin-bottom: 8px;
+            color: #333;
+            font-size: 14px;
+            font-weight: 600;
+            padding-top: 8px;
+            border-top: 1px solid #eee;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            padding: 4px 0;
+        }
+
+        .legend-color {
+            width: 30px;
+            height: 4px;
+            margin-right: 10px;
+            border-radius: 2px;
+        }
+
+        .legend-text {
+            font-size: 12px;
+            color: #666;
+        }
+
         .station-popup {
             font-family: Arial, sans-serif;
+            padding: 5px;
         }
 
         .station-popup .station-name {
             font-weight: bold;
             margin-bottom: 5px;
-        }
-
-        .station-popup .line-name {
-            color: #666;
-            font-size: 12px;
-        }
-
-        .legend {
-            background: white;
-            padding: 12px;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            max-height: 70vh;
-            overflow-y: scroll;
-            min-width: 280px;
-            font-family: Arial, sans-serif;
-            scrollbar-width: thin;
-            scrollbar-color: #888 #f1f1f1;
-        }
-
-        .legend::-webkit-scrollbar {
-            width: 6px;
-        }
-
-        .legend::-webkit-scrollbar-track {
-            background: #f1f1f1;
-            border-radius: 3px;
-        }
-
-        .legend::-webkit-scrollbar-thumb {
-            background: #888;
-            border-radius: 3px;
-        }
-
-        .legend::-webkit-scrollbar-thumb:hover {
-            background: #555;
-        }
-
-        .legend h4 {
-            margin-bottom: 12px;
             font-size: 14px;
-            font-weight: bold;
             color: #333;
-            padding-bottom: 8px;
-            border-bottom: 1px solid #eee;
-            position: sticky;
-            top: 0;
-            background: white;
-            z-index: 1000;
-        }
-
-        .legend-item {
-            display: grid;
-            grid-template-columns: 24px auto;
-            align-items: center;
-            gap: 10px;
-            padding: 4px 0;
-        }
-
-        .legend-color {
-            width: 24px;
-            height: 4px;
-            border-radius: 2px;
-        }
-
-        .line-name {
-            font-size: 12px;
-            color: #666;
-            margin-top: 2px;
-        }
-
-        .line-type-header {
-            margin-top: 12px;
-            margin-bottom: 6px;
-            color: #333;
-            font-size: 13px;
-            font-weight: 600;
-            padding-top: 8px;
-            border-top: 1px solid #eee;
-            position: sticky;
-            top: 39px;
-            background: white;
-            z-index: 999;
-        }
-
-        .line-type-header:first-of-type {
-            border-top: none;
-            margin-top: 0;
-        }
-
-        .legend-text {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .line-code {
-            font-weight: 600;
-            color: #333;
-            font-size: 12px;
-        }
-
-        .leaflet-popup-content-wrapper {
-            border-radius: 8px;
-            padding: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-
-        .leaflet-popup-tip-container {
-            opacity: 0.8;
         }
     </style>
 </head>
 <body>
+    <div class="search-container">
+        <input type="text" id="start-station" class="search-input" placeholder="Start station...">
+        <div id="start-results" class="search-results"></div>
+        
+        <input type="text" id="end-station" class="search-input" placeholder="End station...">
+        <div id="end-results" class="search-results"></div>
+        
+        <button onclick="findRoute()" id="find-route" class="find-route-btn" disabled>Find Route</button>
+        <div id="route-details" class="route-details"></div>
+    </div>
+    
     <div id="map"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
     <script>
         const lines = {
-            'M1A': {
-                color: '#ED1C24',
-                name: 'Yenikapi - Istanbul Ataturk Airport Metro Line'
-            },
-            'M1B': {
-                color: '#ED1C24',
-                name: 'Yenikapi - Kirazli Metro Line'
-            },
-            'M2': {
-                color: '#00A651',
-                name: 'Yenikapi - Haciosman Metro Line'
-            },
-            'M3': {
-                color: '#00AEEF',
-                name: 'Bakirkoy IDE - Kayasehir Metro Line'
-            },
-            'M4': {
-                color: '#EC008C',
-                name: 'Kadikoy - Sabiha Gokcen Airport Metro Line'
-            },
-            'M5': {
-                color: '#92278F',
-                name: 'Uskudar - Cekmekoy Metro Line'
-            },
-            'M6': {
-                color: '#B77F51',
-                name: 'Levent - Bogazici University / Hisarustu Metro Line'
-            },
-            'M7': {
-                color: '#F8ADC2',
-                name: 'Mecidiyekoy - Mahmutbey Metro Line'
-            },
-            'M8': {
-                color: '#0072BC',
-                name: 'Bostanci - Dudullu Metro Line'
-            },
-            'M9': {
-                color: '#FFD100',
-                name: 'Basakehir - Kayasehir Metro Line'
-            },
-            'T1': {
-                color: '#00205B',
-                name: 'Kabatas - Bagcilar Tram Line'
-            },
-            'T2': {
-                color: '#95A5A6',
-                name: 'Taksim - Tunel Heritage Tram Line'
-            },
-            'T3': {
-                color: '#8B4513',
-                name: 'Kadikoy - Moda Heritage Tram Line'
-            },
-            'T4': {
-                color: '#FF6B33',
-                name: 'Topkapi - Mescid-i Selam Tram Line'
-            },
-            'F1': {
-                color: '#7F6000',
-                name: 'Taksim - Kabatas Funicular Line'
-            },
-            'F2': {
-                color: '#7F6000',
-                name: 'Karakoy - Beyoglu Historical Tunnel'
-            },
-            'B1': {
-                color: '#4A4A4A',
-                name: 'Halkali - Gebze Marmaray Line'
-            }
+            'M1A': { color: '#E3002A', name: 'Yenikapi - Istanbul Ataturk Airport Metro Line', type: 'Metro' },
+            'M1B': { color: '#EC3B36', name: 'Yenikapi - Kirazli Metro Line', type: 'Metro' },
+            'M2': { color: '#009D4F', name: 'Yenikapi - Haciosman Metro Line', type: 'Metro' },
+            'M3': { color: '#00A1DC', name: 'Bakirkoy - Kayasehir Metro Line', type: 'Metro' },
+            'M4': { color: '#F10084', name: 'Kadikoy - Sabiha Gokcen Airport Metro Line', type: 'Metro' },
+            'M5': { color: '#7B378D', name: 'Uskudar - Samandira Metro Line', type: 'Metro' },
+            'M6': { color: '#A69365', name: 'Levent - Bogazici University Metro Line', type: 'Metro' },
+            'M7': { color: '#FFB3C8', name: 'Yildiz - Mahmutbey Metro Line', type: 'Metro' },
+            'M8': { color: '#005EB8', name: 'Bostanci - Parseller Metro Line', type: 'Metro' },
+            'M9': { color: '#FFD200', name: 'Atakoy - Olimpiyat Metro Line', type: 'Metro' },
+            'M11': { color: '#5E2B76', name: 'Gayrettepe - Istanbul Airport Metro Line', type: 'Metro' },
+            'T1': { color: '#0C2E6D', name: 'Kabatas - Bagcilar Tram Line', type: 'Tram' },
+            'T3': { color: '#A67148', name: 'Kadikoy - Moda Nostalgia Tram Line', type: 'Tram' },
+            'T4': { color: '#F47F21', name: 'Topkapi - Mescid-i Selam Tram Line', type: 'Tram' },
+            'T5': { color: '#7F4A9F', name: 'Eminonu - Alibeykoy Tram Line', type: 'Tram' },
+            'F1': { color: '#AA9A75', name: 'Taksim - Kabatas Funicular Line', type: 'Funicular' },
+            'F2': { color: '#856742', name: 'Karakoy - Beyoglu Historical Tunnel', type: 'Funicular' },
+            'TF1': { color: '#CA4D8C', name: 'Macka - Taskisla Cable Car Line', type: 'Cable Car' },
+            'TF2': { color: '#70C1BF', name: 'Eyup - Pierre Loti Cable Car Line', type: 'Cable Car' },
+            'B1': { color: '#54585A', name: 'Halkali - Gebze Marmaray Line', type: 'Suburban' }
         };
 
         const map = L.map('map').setView([41.0082, 28.9784], 11);
-
+        
         L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
-            attribution: '©OpenStreetMap, ©CartoDB',
-            subdomains: 'abcd',
-            minZoom: 0,
-            maxZoom: 20,
+            maxZoom: 19,
+            attribution: '© OpenStreetMap contributors'
         }).addTo(map);
+        
+        let selectedStart = null;
+        let selectedEnd = null;
+        let stationsByLine = {};
+        let routeLayer = null;
 
-        function interpolatePoints(points, numPoints = 5) {
-            const interpolated = [];
-            for (let i = 0; i < points.length - 1; i++) {
-                const p0 = points[i];
-                const p1 = points[i + 1];
-                
-                for (let j = 0; j < numPoints; j++) {
-                    const t = j / numPoints;
-                    interpolated.push([
-                        p0[0] + (p1[0] - p0[0]) * t,
-                        p0[1] + (p1[1] - p0[1]) * t
-                    ]);
-                }
-            }
-            interpolated.push(points[points.length - 1]);
-            return interpolated;
-        }
-
+        let stationMarkers = {};
+        
         async function loadStations() {
             try {
                 const response = await fetch('/data/stations.json');
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
                 const data = await response.json();
-                processStations(data);
+                
+                data.features.forEach(feature => {
+                    const line = feature.properties.PROJE_ADI;
+                    if (!stationsByLine[line]) {
+                        stationsByLine[line] = [];
+                    }
+                    stationsByLine[line].push(feature);
+                });
+
+                Object.entries(stationsByLine).forEach(([line, stations]) => {
+                    const lineCode = line.split(' ')[0];
+                    const color = lines[lineCode]?.color || '#999';
+
+                    const coordinates = stations.map(station => [
+                        station.geometry.coordinates[1],
+                        station.geometry.coordinates[0]
+                    ]);
+
+                    L.polyline(coordinates, {
+                        color: color,
+                        weight: 4,
+                        opacity: 0.8,
+                        smoothFactor: 1,
+                        pane: 'overlayPane',
+                        zIndexOffset: 0
+                    }).addTo(map);
+
+                    stations.forEach(station => {
+                        const stName = station.properties.ISTASYON;
+                        const lineName = station.properties.PROJE_ADI;
+                        const [lng, lat] = station.geometry.coordinates;
+
+                        const stationKey = stName + '||' + lineName;
+
+                        const marker = L.circleMarker([lat, lng], {
+                            radius: 6,
+                            fillColor: color,
+                            color: '#fff',
+                            weight: 2,
+                            opacity: 1,
+                            fillOpacity: 0.8
+                        }).bindPopup(`
+                            <div class="station-popup">
+                                <div class="station-name">${stName} Station</div>
+                                <div class="line-name">${lines[lineCode]?.name || lineName}</div>
+                            </div>
+                        `);
+
+                        marker.on('mouseover', function() {
+                            this.setRadius(8);
+                            this.setStyle({ fillOpacity: 1 });
+                        });
+
+                        marker.on('mouseout', function() {
+                            this.setRadius(6);
+                            this.setStyle({ fillOpacity: 0.8 });
+                        });
+
+                        marker.addTo(map);
+                        stationMarkers[stationKey] = marker;
+                    });
+                });
+
+                addLegend();
             } catch (error) {
                 console.error('Error loading stations:', error);
             }
         }
 
-        function getLineNameInEnglish(lineName) {
-            const lineCode = lineName.split(' ')[0];
-            return lines[lineCode]?.name || lineName;
-        }
-
-        function processStations(data) {
-            const stationsByLine = {};
-            const stations = data.features;
-            
-            stations.forEach(station => {
-                const line = station.properties.PROJE_ADI;
-                if (!stationsByLine[line]) {
-                    stationsByLine[line] = [];
-                }
-                stationsByLine[line].push(station);
-            });
-
-            Object.entries(stationsByLine).forEach(([line, stations]) => {
-                const lineCode = line.split(' ')[0];
-                const color = lines[lineCode]?.color || '#999';
-                const englishLineName = getLineNameInEnglish(line);
-
-                stations.sort((a, b) => {
-                    return (a.properties.SIRA_NO || 0) - (b.properties.SIRA_NO || 0);
-                });
-
-                const coordinates = stations.map(station => 
-                    [station.geometry.coordinates[1], station.geometry.coordinates[0]]
-                );
-
-                // Create smooth line with interpolated points
-                const smoothCoordinates = interpolatePoints(coordinates, 8);
-
-                L.polyline(smoothCoordinates, {
-                    color: color,
-                    weight: 6,
-                    opacity: 0.9,
-                    lineJoin: 'round',
-                    lineCap: 'round',
-                    smoothFactor: 0.3
-                }).addTo(map);
-
-                stations.forEach(station => {
-                    const [lng, lat] = station.geometry.coordinates;
-                    const circle = L.circleMarker([lat, lng], {
-                        radius: 6,
-                        fillColor: color,
-                        color: '#fff',
-                        weight: 2,
-                        opacity: 1,
-                        fillOpacity: 1
-                    }).addTo(map);
-
-                    circle.bindPopup(`
-                        <div class="station-popup">
-                            <div class="station-name">${station.properties.ISTASYON} Station</div>
-                            <div class="line-name">${englishLineName}</div>
-                        </div>
-                    `);
-                });
-            });
-
-            addLegend();
-        }
-
         function addLegend() {
             const legend = L.control({ position: 'bottomright' });
-
+            
             legend.onAdd = function(map) {
-                const div = L.DomUtil.create('div', 'legend');
-                div.innerHTML = '<h4>Istanbul Railway Network</h4>';
-
+                const div = L.DomUtil.create('div', 'legend collapsed');
+                
+                let content = `
+                    <div class="legend-header">
+                        <h4>Istanbul Railway Network</h4>
+                        <span class="legend-toggle">▼</span>
+                    </div>
+                    <div class="legend-content">
+                `;
+                
                 const lineTypes = {
-                    'M': 'Metro Lines',
-                    'T': 'Tram Lines',
-                    'F': 'Funicular & Historical Lines',
-                    'B': 'Suburban Lines'
+                    'Metro': 'Metro Lines',
+                    'Tram': 'Tram Lines',
+                    'Cable Car': 'Cable Car Lines',
+                    'Funicular': 'Funicular Lines',
+                    'Suburban': 'Suburban Lines'
                 };
 
-                const groupedLines = Object.entries(lines).reduce((acc, [code, data]) => {
-                    const type = code[0];
-                    if (!acc[type]) acc[type] = [];
-                    acc[type].push([code, data]);
-                    return acc;
-                }, {});
+                const groupedLines = {};
+                Object.entries(lines).forEach(([code, info]) => {
+                    if (!groupedLines[info.type]) {
+                        groupedLines[info.type] = [];
+                    }
+                    groupedLines[info.type].push([code, info]);
+                });
 
-                Object.entries(lineTypes).forEach(([type, typeName]) => {
-                    if (groupedLines[type]) {
-                        div.innerHTML += `<div class="line-type-header">${typeName}</div>`;
-                        div.innerHTML += '<div class="legend-grid">';
-                        groupedLines[type].forEach(([code, data]) => {
-                            div.innerHTML += `
+                Object.entries(lineTypes).forEach(([type, typeTitle]) => {
+                    if (groupedLines[type] && groupedLines[type].length > 0) {
+                        content += `<div class="line-type-header">${typeTitle}</div>`;
+                        groupedLines[type].forEach(([code, info]) => {
+                            content += `
                                 <div class="legend-item">
-                                    <div class="legend-color" style="background: ${data.color}"></div>
-                                    <div class="legend-text">
-                                        <span class="line-code">${code}</span>
-                                        <span class="line-name">${data.name}</span>
-                                    </div>
+                                    <div class="legend-color" style="background: ${info.color}"></div>
+                                    <div class="legend-text">${code} - ${info.name}</div>
                                 </div>
                             `;
                         });
-                        div.innerHTML += '</div>';
                     }
                 });
+                
+                content += '</div>'; 
+
+                div.innerHTML = content;
+
+                div.querySelector('.legend-header').addEventListener('click', function(e) {
+                    div.classList.toggle('collapsed');
+                    e.stopPropagation();
+                });
+
+                L.DomEvent.disableClickPropagation(div);
+                L.DomEvent.disableScrollPropagation(div);
 
                 return div;
             };
-
+            
             legend.addTo(map);
         }
 
+        async function searchStations(query) {
+            if (query.length < 2) return [];
+            const response = await fetch(`/api/search_stations?query=${encodeURIComponent(query)}`);
+            return await response.json();
+        }
+
+        function setupSearch(inputId, resultsId, isStart) {
+            const input = document.getElementById(inputId);
+            const results = document.getElementById(resultsId);
+            
+            input.addEventListener('input', async () => {
+                const q = input.value;
+                const matches = await searchStations(q);
+                
+                if (matches.length > 0) {
+                    results.innerHTML = matches.map(([station, line]) => 
+                        `<div class="station-option" onclick="selectStation('${station}', '${line}', ${isStart})">
+                            ${station} (${line})
+                        </div>`
+                    ).join('');
+                    results.classList.add('active');
+                } else {
+                    results.innerHTML = '';
+                    results.classList.remove('active');
+                }
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!input.contains(e.target) && !results.contains(e.target)) {
+                    results.classList.remove('active');
+                }
+            });
+        }
+
+        function selectStation(station, line, isStart) {
+            const input = document.getElementById(isStart ? 'start-station' : 'end-station');
+            const results = document.getElementById(isStart ? 'start-results' : 'end-results');
+            
+            input.value = `${station} (${line})`;
+            results.classList.remove('active');
+            
+            if (isStart) {
+                selectedStart = { station, line };
+            } else {
+                selectedEnd = { station, line };
+            }
+            
+            document.getElementById('find-route').disabled = !(selectedStart && selectedEnd);
+
+            const stationKey = station + '||' + line;
+            const marker = stationMarkers[stationKey];
+            
+            if (marker) {
+                map.setView(marker.getLatLng(), 12);
+                marker.openPopup();
+            } else {
+                console.warn("Marker bulunamadı:", stationKey);
+            }
+        }
+
+        async function animateRouteOnMap(coords) {
+            if (!coords || coords.length < 2) return;
+
+            const marker = L.circleMarker(coords[0], {
+                radius: 8,
+                fillColor: '#FF4081',
+                color: '#FF4081',
+                weight: 2,
+                opacity: 1,
+                fillOpacity: 0.8,
+            }).addTo(map); 
+
+            let currentIndex = 0;
+            const animationSpeed = 500; 
+
+            const interval = setInterval(() => {
+                currentIndex++;
+                if (currentIndex >= coords.length) {
+                    clearInterval(interval);
+                    map.removeLayer(marker);
+                    return;
+                }
+                marker.setLatLng(coords[currentIndex]);
+            }, animationSpeed);
+        }
+
+        async function findRoute() {
+            if (!selectedStart || !selectedEnd) return;
+
+            const routeDetails = document.getElementById('route-details');
+            routeDetails.style.display = 'block';
+
+            try {
+                const resp = await fetch(
+                    `/api/find_route?start=${encodeURIComponent(selectedStart.station)}` +
+                    `&end=${encodeURIComponent(selectedEnd.station)}` +
+                    `&end_line=${encodeURIComponent(selectedEnd.line)}`
+                );
+                const data = await resp.json();
+
+                if (data.error) {
+                    routeDetails.innerHTML = `<p style="color: red;">${data.error}</p>`;
+                    return;
+                }
+
+                let detailsHTML = '<h4>Route Details</h4><div class="route-path">';
+
+                data.details.forEach(detail => {
+                    if (detail.includes('Transfer at')) {
+                        detailsHTML += `<div class="transfer-point">${detail}</div>`;
+                    } else {
+                        detailsHTML += `<p>${detail}</p>`;
+                    }
+                });
+
+                detailsHTML += `
+                    <div class="route-summary">
+                        <p>Total Distance: ${data.distance.toFixed(2)} km</p>
+                        <p>Number of Transfers: ${data.transfers}</p>
+                    </div>
+                </div>`;
+
+                routeDetails.innerHTML = detailsHTML;
+                routeDetails.classList.add('active');
+
+                if (routeLayer) {
+                    map.removeLayer(routeLayer);
+                }
+
+                if (data.path) {
+                    const coords = [];
+                    for (const st of data.path) {
+                        const foundKey = Object.keys(stationMarkers).find(key => key.startsWith(st + '||'));
+                        if (foundKey) coords.push(stationMarkers[foundKey].getLatLng());
+                    }
+
+                    if (coords.length >= 2) {
+                        map.fitBounds(L.latLngBounds(coords), { padding: [50, 50] });
+                        await animateRouteOnMap(coords);
+                    }
+                }
+
+            } catch (error) {
+                console.error('Error finding route:', error);
+                routeDetails.innerHTML = '<p style="color: red;">An error occurred while calculating the route.</p>';
+            }
+        }
+
+        document.getElementById('start-station').addEventListener('input', () => {
+            const startInput = document.getElementById('start-station').value.trim();
+            if (!startInput) {
+                selectedStart = null;
+                resetRouteDetails();
+            } else {
+                selectedStart = { station: startInput, line: null };
+            }
+            toggleFindRouteButton();
+        });
+
+        document.getElementById('end-station').addEventListener('input', () => {
+            const endInput = document.getElementById('end-station').value.trim();
+            if (!endInput) {
+                selectedEnd = null;
+                resetRouteDetails();
+            } else {
+                selectedEnd = { station: endInput, line: null };
+            }
+            toggleFindRouteButton();
+        });
+
+        function toggleFindRouteButton() {
+            const findRouteButton = document.getElementById('find-route');
+            findRouteButton.disabled = !(selectedStart && selectedEnd);
+        }
+
+        function resetRouteDetails() {
+            const routeDetails = document.getElementById('route-details');
+            routeDetails.style.display = 'none';
+            routeDetails.innerHTML = '';
+
+            if (routeLayer) {
+                map.removeLayer(routeLayer);
+                routeLayer = null;
+            }
+        }
+        
         loadStations();
+        setupSearch('start-station', 'start-results', true);
+        setupSearch('end-station', 'end-results', false);
     </script>
 </body>
 </html>
